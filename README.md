@@ -1,0 +1,2 @@
+# Boligskraper-python
+Skraper boligdata
