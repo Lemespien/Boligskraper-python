@@ -1,209 +1,181 @@
 {
-    "Mørkvedbukta": {
-        "address": "Mørkvedbukta",
-        "link": "https://privatmegleren.no/308209003",
+    "Innerdammen": {
+        "address": "Innerdammen",
+        "link": "https://privatmegleren.no/308199008",
         "area": "Bodø - Mørkved omegn",
-        "asking_price": "4530000",
+        "asking_price": "1600000",
         "type": "Leilighet",
-        "primary_room_size": "83",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/10/vertical-2/16/5/187/738/595_1001452794.jpg"
+        "primary_room_size": "22",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/3/vertical-2/28/7/164/809/767_1450943024.jpg"
     },
-    "Sivert Nielsens gate 52C": {
-        "address": "Sivert Nielsens gate 52C",
-        "link": "https://privatmegleren.no/308200098",
-        "area": "Bodø Sentrum",
-        "asking_price": "2916500",
-        "type": "Andelsleilighet",
-        "primary_room_size": "92",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/10/vertical-2/30/2/187/298/932_771739955.jpg"
-    },
-    "Sjøgata 6 H0406": {
-        "address": "Sjøgata 6 H0406",
-        "link": "https://privatmegleren.no/308200122",
-        "area": "Bodø Sentrum",
-        "asking_price": "1990000",
+    "Kirkeveien 1": {
+        "address": "Kirkeveien 1",
+        "link": "https://privatmegleren.no/308190203",
+        "area": "Bodø Rønvika",
+        "asking_price": "1790000",
         "type": "Leilighet",
-        "primary_room_size": "103",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/11/vertical-2/04/4/188/518/024_601797551.jpg"
+        "primary_room_size": "22"
     },
-    "Innstrandveien": {
-        "address": "Innstrandveien",
-        "link": "https://privatmegleren.no/308209001",
+    "Støver Park": {
+        "address": "Støver Park",
+        "link": "https://privatmegleren.no/308209006",
         "area": "Bodø - Mørkved omegn",
-        "asking_price": "3290000",
+        "asking_price": "1700000",
         "type": "Leilighet",
-        "primary_room_size": "71",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/9/vertical-2/25/9/174/609/889_1013345389.jpg"
+        "primary_room_size": "22",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/3/vertical-2/12/4/210/790/364_1283978841.jpg"
     },
-    "Fridtjof Nansens vei 5": {
-        "address": "Fridtjof Nansens vei 5",
-        "link": "https://privatmegleren.no/308200115",
+    "Ankerveien 5": {
+        "address": "Ankerveien 5",
+        "link": "https://privatmegleren.no/308190065",
+        "area": "Bodø Bodøsjøen",
+        "asking_price": "3050000",
+        "type": "Leilighet",
+        "primary_room_size": "111",
+        "image": "https://images.finncdn.no/dynamic/1600w/2019/5/vertical-2/08/7/147/005/957_86750653.jpg"
+    },
+    "Rundhaugen 14": {
+        "address": "Rundhaugen 14",
+        "link": "https://privatmegleren.no/308200141",
+        "area": "Bodø - Mørkved omegn",
+        "asking_price": "4270000",
+        "type": "Enebolig",
+        "primary_room_size": "167",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/16/2/215/214/302_845172106.jpg"
+    },
+    "Kirkeveien 1 202": {
+        "address": "Kirkeveien 1 202",
+        "link": "https://privatmegleren.no/308210098",
+        "area": "Bodø Rønvika",
+        "asking_price": "2340000",
+        "type": "Selveierleilighet",
+        "primary_room_size": "22",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/2/vertical-2/13/1/207/973/271_298373305.jpg"
+    },
+    "Løvetannveien 9": {
+        "address": "Løvetannveien 9",
+        "link": "https://privatmegleren.no/308210129",
         "area": "Bodø Sentrum",
-        "asking_price": "2370000",
-        "type": "Andelsleilighet",
-        "primary_room_size": "90",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/8/vertical-2/21/4/188/004/574_1766420563.jpg"
+        "asking_price": "6350000",
+        "type": "Enebolig",
+        "primary_room_size": "197",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/16/8/215/165/038_1622220585.jpg"
+    },
+    "Brækkatunet 39": {
+        "address": "Brækkatunet 39",
+        "link": "https://privatmegleren.no/308210127",
+        "area": "Bodø - Mørkved omegn",
+        "asking_price": "4780000",
+        "type": "Rekkehus",
+        "primary_room_size": "128",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/15/1/215/039/791_1490417028.jpg"
     },
     "Parkveien 100": {
         "address": "Parkveien 100",
         "link": "https://privatmegleren.no/308200068",
         "area": "Bodø Sentrum",
-        "asking_price": "7830000",
+        "asking_price": "9370000",
         "type": "Tomannsbolig",
         "primary_room_size": "338",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/5/vertical-2/29/7/180/461/347_973433312.jpg"
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/17/7/180/461/347_1519535961.jpg"
     },
-    "Per Helgesens vei 43": {
-        "address": "Per Helgesens vei 43",
-        "link": "https://privatmegleren.no/308209002",
-        "area": "Bodø Bodøsjøen",
-        "asking_price": "7890000",
-        "type": "Enebolig",
-        "primary_room_size": "160",
-        "image": "https://cdn.webmegler.no/wngetbilde.ashx?/abilde/k120/f%5Cbilder%5C2020%5C3000252%5C10%5C8626940_1-oygjpb1.jpg"
-    },
-    "Karolins vei 2": {
-        "address": "Karolins vei 2",
-        "link": "https://privatmegleren.no/308200142",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "3990000",
-        "type": "Enebolig",
-        "primary_room_size": "176",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/11/vertical-2/18/5/194/121/415_185151963.jpg"
-    },
-    "Hagebyen 18 Tomannsbolig A": {
-        "address": "Hagebyen 18 Tomannsbolig A",
-        "link": "https://privatmegleren.no/308189013",
-        "area": "Tverlandet",
-        "asking_price": "2790000",
-        "type": "Leilighet",
-        "primary_room_size": "73",
-        "image": "https://images.finncdn.no/dynamic/1600w/2019/5/vertical-2/20/5/134/699/515_1629121132.jpg"
-    },
-    "Ankerveien 4": {
-        "address": "Ankerveien 4",
-        "link": "https://privatmegleren.no/308190067",
-        "area": "Bodø Bodøsjøen",
-        "asking_price": "3050000",
-        "type": "Leilighet",
-        "primary_room_size": "110",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/11/vertical-2/19/1/194/102/781_136759086.jpg"
-    },
-    "Hagebyen 18 Tomannsbolig B": {
-        "address": "Hagebyen 18 Tomannsbolig B",
-        "link": "https://privatmegleren.no/308189014",
-        "area": "Tverlandet",
-        "asking_price": "2790000",
-        "type": "Tomannsbolig",
-        "primary_room_size": "73",
-        "image": "https://images.finncdn.no/dynamic/1600w/2019/4/vertical-2/08/2/144/389/132_1743465857.jpg"
-    },
-    "Hagebyen 18 D": {
-        "address": "Hagebyen 18 D",
-        "link": "https://privatmegleren.no/308199000",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "4590000",
-        "type": "Enebolig",
-        "primary_room_size": "130",
-        "image": "https://images.finncdn.no/dynamic/1600w/2019/4/vertical-2/07/8/144/275/388_1609766748.jpg"
-    },
-    "Måsheia leiligheter": {
-        "address": "Måsheia leiligheter",
-        "link": "https://privatmegleren.no/308199005",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "2790000",
-        "type": "Leilighet",
-        "primary_room_size": "65",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/3/vertical-2/20/6/156/829/706_1916311533.jpg"
-    },
-    "Kirkeveien 1": {
-        "address": "Kirkeveien 1",
-        "link": "https://privatmegleren.no/308199003",
-        "area": "Bodø Rønvika",
-        "asking_price": "1890000",
-        "type": "Leilighet",
-        "primary_room_size": "22",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/9/vertical-2/14/9/161/918/219_1949776503.jpg"
-    },
-    "Skipperveien 35A": {
-        "address": "Skipperveien 35A",
-        "link": "https://privatmegleren.no/308200162",
-        "area": "Bodø Bodøsjøen",
-        "asking_price": "5650000",
-        "type": "Rekkehus",
-        "primary_room_size": "141",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/11/vertical-2/20/7/198/213/567_262833265.jpg"
-    },
-    "Hunstadringen 254": {
-        "address": "Hunstadringen 254",
-        "link": "https://privatmegleren.no/308189000",
+    "Støverveien 8D": {
+        "address": "Støverveien 8D",
+        "link": "https://privatmegleren.no/308210007",
         "area": "Bodø - Mørkved omegn",
-        "asking_price": "5220000",
+        "asking_price": "1950000",
+        "type": "Andelsleilighet",
+        "primary_room_size": "50",
+        "image": "https://cdn.webmegler.no/wngetbilde.ashx?/abilde/k120/f%5Cbilder%5C2021%5C3000252%5C4%5C8995467_1-bmipxb1.jpg"
+    },
+    "Prinsens gate 104": {
+        "address": "Prinsens gate 104",
+        "link": "https://privatmegleren.no/308210093",
+        "area": "Bodø Sentrum",
+        "asking_price": "6580000",
         "type": "Enebolig",
-        "primary_room_size": "94",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/10/vertical-2/31/2/157/104/302_1721144598.jpg"
+        "primary_room_size": "217",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/3/vertical-2/18/0/211/600/720_1662375861.jpg"
     },
-    "Innerdammen": {
-        "address": "Innerdammen",
-        "link": "https://privatmegleren.no/308199008",
-        "area": "Bodø - Mørkved omegn",
-        "asking_price": "1750000",
-        "type": "Leilighet",
-        "primary_room_size": "22",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/7/vertical-2/13/7/164/809/767_986130813.jpg"
-    },
-    "Kirkeveien 35": {
-        "address": "Kirkeveien 35",
-        "link": "https://privatmegleren.no/308200140",
-        "area": "Bodø Rønvika",
-        "asking_price": "5950000",
-        "type": "Enebolig",
-        "primary_room_size": "136",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/12/vertical-2/01/6/196/359/386_191757407.jpg"
-    },
-    "Sjøveien 25-27": {
-        "address": "Sjøveien 25-27",
-        "link": "https://privatmegleren.no/308209004",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "3290000",
-        "type": "Tomannsbolig",
-        "primary_room_size": "65",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/12/vertical-2/01/3/197/978/383_1992860448.jpg"
-    },
-    "Blixhaugen 19 A": {
-        "address": "Blixhaugen 19 A",
-        "link": "https://privatmegleren.no/308209000",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "4970000",
-        "type": "Enebolig",
-        "primary_room_size": "120",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/9/vertical-2/04/9/172/414/499_1147246097.jpg"
-    },
-    "Måsheia boligfelt - Eneboliger": {
-        "address": "Måsheia boligfelt - Eneboliger",
-        "link": "https://privatmegleren.no/308199002",
-        "area": "Bodø - Tverlandet",
-        "asking_price": "5500000",
-        "type": "Enebolig",
-        "primary_room_size": "161",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/4/vertical-2/19/1/150/840/521_333215584.jpg"
-    },
-    "Svartlia 23": {
-        "address": "Svartlia 23",
-        "link": "https://privatmegleren.no/308200173",
-        "area": "Bodø Grønnåsen",
-        "asking_price": "7050000",
-        "type": "Enebolig",
-        "primary_room_size": "238",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/12/vertical-2/02/5/199/785/365_984217426.jpg"
-    },
-    "Oksebakkveien 2 nye eneboliger": {
-        "address": "Oksebakkveien 2 nye eneboliger",
-        "link": "https://privatmegleren.no/308209005",
+    "Skivik Havn N70 B21": {
+        "address": "Skivik Havn N70 B21",
+        "link": "https://privatmegleren.no/308210113",
         "area": "Bodø Nordsiden",
-        "asking_price": "7300000",
+        "asking_price": "1480000",
+        "type": "Fritidseiendom",
+        "primary_room_size": "46",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/15/1/215/122/151_120090035.jpg"
+    },
+    "Ærfuglveien 3": {
+        "address": "Ærfuglveien 3",
+        "link": "https://privatmegleren.no/308210122",
+        "area": "Bodø Sentrum",
+        "asking_price": "11990000",
         "type": "Enebolig",
-        "primary_room_size": "158",
-        "image": "https://images.finncdn.no/dynamic/1600w/2020/12/vertical-2/01/1/200/370/461_1466619332.jpg"
+        "primary_room_size": "402",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/10/5/212/857/785_1617475594.jpg"
+    },
+    "Hammarn 2 B": {
+        "address": "Hammarn 2 B",
+        "link": "https://privatmegleren.no/308210133",
+        "area": "Bodø Sentrum",
+        "asking_price": "2790000",
+        "type": "Rekkehus",
+        "primary_room_size": "129",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/20/0/215/619/570_1650468317.jpg"
+    },
+    "Børtindgata 2A": {
+        "address": "Børtindgata 2A",
+        "link": "https://privatmegleren.no/308210132",
+        "area": "Bodø Sentrum",
+        "asking_price": "4870000",
+        "type": "Tomannsbolig",
+        "primary_room_size": "137",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/16/4/215/214/394_863253024.jpg"
+    },
+    "Storgata 35B": {
+        "address": "Storgata 35B",
+        "link": "https://privatmegleren.no/308210131",
+        "area": "Bodø Sentrum",
+        "asking_price": "6420000",
+        "type": "Selveierleilighet",
+        "primary_room_size": "123",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/15/4/215/037/094_631239049.jpg"
+    },
+    "Innerdammen 3 H0203": {
+        "address": "Innerdammen 3 H0203",
+        "link": "https://privatmegleren.no/308210011",
+        "area": "Bodø - Mørkved omegn",
+        "asking_price": "1850000",
+        "type": "Leilighet",
+        "primary_room_size": "22",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/20/8/215/660/148_665387189.jpg"
+    },
+    "Valnesvika 33": {
+        "address": "Valnesvika 33",
+        "link": "https://privatmegleren.no/308210123",
+        "area": "Bodø - Saltstraumen",
+        "asking_price": "2980000",
+        "type": "Fritidseiendom",
+        "primary_room_size": "70",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/04/7/212/444/467_245078668.jpg"
+    },
+    "Gjerdvollan 2": {
+        "address": "Gjerdvollan 2",
+        "link": "https://privatmegleren.no/308170249",
+        "area": "Bodø - Tverlandet",
+        "asking_price": "4900000",
+        "type": "Enebolig",
+        "primary_room_size": "244",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/4/vertical-2/17/9/215/340/859_732605054.jpg"
+    },
+    "Sjøveien 7 A-E": {
+        "address": "Sjøveien 7 A-E",
+        "link": "https://privatmegleren.no/308219000",
+        "area": "Bodø - Tverlandet",
+        "asking_price": "5090000",
+        "type": "Tomannsbolig",
+        "primary_room_size": "129",
+        "image": "https://images.finncdn.no/dynamic/1600w/2021/3/vertical-2/29/3/209/258/283_120054896.jpg"
     }
 }

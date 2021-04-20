@@ -3,8 +3,10 @@ import time
 import json
 import selenium.common.exceptions as Selenium_Exceptions
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver import Firefox
+# from selenium.webdriver.firefox.options import Options
+# from selenium.webdriver import Firefox
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import Chrome
 
 limited = False
 limit_count = 10
@@ -15,11 +17,16 @@ opts.headless = True
 
 assert opts.headless  # Operating in headless mode
 
-driver = Firefox(options=opts)
+file_path = "data_privatmegleren.json"
+URL = "https://privatmegleren.no/kjope-bolig?a=true&c=%5B%7B%22id%22%3A%22Nordland%22%2C%22county%22%3A%22Nordland%22%2C%22locations%22%3A%5B%5D%7D%5D&l=%5B%7B%22id%22%3A%22Bod%C3%B8%22%2C%22county%22%3A%22Nordland%22%2C%22municipalityArea%22%3A%22Bod%C3%B8%22%7D%5D&mb=0&mv=false&p=1&pfv=1000000&ptv=10000000&q=bod%C3%B8&s=false&sfv=30&show_market_link=false&stv=400"
 
-driver.get("https://privatmegleren.no/kjope-bolig?a=true&c=%5B%7B%22id%22%3A%22Nordland%22%2C%22county%22%3A%22Nordland%22%2C%22locations%22%3A%5B%5D%7D%5D&l=%5B%7B%22id%22%3A%22Bod%C3%B8%22%2C%22county%22%3A%22Nordland%22%2C%22municipalityArea%22%3A%22Bod%C3%B8%22%7D%5D&mb=0&mv=false&p=1&pfv=1000000&ptv=10000000&q=bod%C3%B8&s=false&sfv=30&show_market_link=false&stv=400")
-print("fetching, 5sec")
-time.sleep(3)
+driver = Chrome(executable_path="C:\Cmder\Python\PythonPaths\chromedriver.exe", options=opts)
+driver.get(URL)
+
+fetch_time = 2
+print(f"fetching, {fetch_time}")
+time.sleep(fetch_time)
+
 results = driver.find_element_by_class_name("search__Results-sc-3j5t4h-15")
 
 if results.is_displayed():
@@ -34,7 +41,7 @@ if results.is_displayed():
             body.send_keys(Keys.PAGE_DOWN)
             time.sleep(0.1)
         print("At the bottom")
-        with open("data_privatmegleren.json", "w", encoding='utf8') as f:
+        with open(file_path, "w", encoding='utf8') as f:
             for card in cards:
                 if count > limit_count and limited:
                     break
@@ -95,6 +102,7 @@ if results.is_displayed():
                 print(card.text)
                 data[card_data["address"]] = card_data
                 print("\n card end \n")
+
             f.write(json.dumps(data, indent=4, ensure_ascii=False))
     else:
         print("failed")

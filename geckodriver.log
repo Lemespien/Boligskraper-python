@@ -9445,3 +9445,9 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1606983912858	Marionette	INFO	Listening on port 58919
 1606983912878	Marionette	WARN	TLS certificate errors will be ignored for this session
 1606983924851	Marionette	INFO	Stopped listening on port 58919
+1618643470473	geckodriver	INFO	Listening on 127.0.0.1:55081
+1618643478222	geckodriver	INFO	Listening on 127.0.0.1:55095
+1618643523111	geckodriver	INFO	Listening on 127.0.0.1:55108
+1618643688716	geckodriver	INFO	Listening on 127.0.0.1:55188
+1618644154654	geckodriver	INFO	Listening on 127.0.0.1:55274
+1618644429773	geckodriver	INFO	Listening on 127.0.0.1:55326
