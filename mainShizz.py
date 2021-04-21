@@ -65,11 +65,9 @@ async def mainstuff(realEstateInfo):
                 file.write("{")
                 count = 0
                 task_dict = {}
-                placeholder_count = 0
-                all_keys = []
                 try:
-                    task_dict, placeholder_count, all_keys = await create_tasks(properties, file, placeholder_count, get_data_from_element, realEstateInfo, all_keys)
-                    placeholder_count, all_keys = await write_to_file(file, task_dict, placeholder_count, all_keys)
+                    task_dict = await create_tasks(properties, get_data_from_element, realEstateInfo)
+                    await write_to_file(file, task_dict)
                 except Exception as err:
                     print(type(err))
                     print(err)
