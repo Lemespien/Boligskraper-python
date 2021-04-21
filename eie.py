@@ -1,18 +1,12 @@
 """###  """
-from enum import Enum
 import asyncio
 from Element import Element
 from write_to_file import write_to_file
 from create_tasks import create_tasks
 import json
-# import requests
-import time
 import selenium.common.exceptions as Selenium_Exceptions
-# from selenium.webdriver.firefox.options import Options
-# from selenium.webdriver import Firefox
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import Chrome
-# from bs4 import BeautifulSoup
 
 opts = Options()
 opts.headless = True
