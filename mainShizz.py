@@ -3,6 +3,8 @@ import asyncio
 from Element import Element
 from eiendomsmegler1_init import EiendomsMegler1
 from eie_init import Eie
+from dndeiendom_init import DnbEiendom
+from privatmegleren_init import Privatmegleren
 from write_to_file import write_to_file
 from create_tasks import create_tasks
 import json
@@ -53,13 +55,13 @@ async def mainstuff(realEstateInfo):
     try:
         browser = Chrome(executable_path="C:\Cmder\Python\PythonPaths\chromedriver.exe", options=opts)
         browser.get(realEstateInfo.url)
-        await asyncio.sleep(5)
+        await asyncio.sleep(3)
         if realEstateInfo.special_start:
             await realEstateInfo.special_start(browser)
-        properties = browser.find_elements_by_class_name(realEstateInfo.property_cards_css_selector)
+        properties = browser.find_elements_by_css_selector(realEstateInfo.property_cards_css_selector)
         print(len(properties))
         if properties:
-            with open(realEstateInfo.file_name, "w", encoding='utf8') as file:
+            with open("./data/"+realEstateInfo.file_name, "w", encoding='utf8') as file:
                 file.write("{")
                 count = 0
                 task_dict = {}
@@ -77,5 +79,5 @@ async def mainstuff(realEstateInfo):
         browser.close()
         print("browser closed, final")
 
-for realEstateInfo in [EiendomsMegler1, Eie]:
+for realEstateInfo in [Eie, EiendomsMegler1, DnbEiendom, Privatmegleren]:
     asyncio.run(mainstuff(realEstateInfo))

@@ -32,4 +32,5 @@ Eie = RealEstateInfo(
         ["address", ".card__headline"],
         ["city", ".card__overline"]
     ],
-    "main div.section__body div.cards a.card", special_case=special_case)
+    "main div.section__body div.cards a.card", 
+    special_case=special_case)

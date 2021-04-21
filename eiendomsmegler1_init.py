@@ -34,7 +34,7 @@ EiendomsMegler1 = RealEstateInfo(
         ["city", ".city"],
         ["address", ".address"],
     ],
-    "property-card",
+    ".property-card",
     special_start=special_start,
     special_case=special_case
 )
